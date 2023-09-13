@@ -22,14 +22,9 @@ const ProfileDetails = props => {
           rel="noreferrer"
           href="https://www.linkedin.com/in/balajikosuri"
         >
-          <img
-            src="img/Balaji kosuri picture .jpg"
-            alt="profile"
-            className="profile-image"
-          />
-          <h1 className="profile-name">Balaji Kosuri</h1>
-          {/* <p className="profile-bio">{shortBio}</p> */}
-          <p className="profile-bio">FullStack Developer</p>
+          <img src={profileImageUrl} alt="profile" className="profile-image" />
+          <h1 className="profile-name">{name}</h1>
+          <p className="profile-bio">{shortBio}</p>
         </a>
       </div>
     )
